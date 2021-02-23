@@ -92,6 +92,7 @@
 
 .dark-mode2{
   color:black;
+  background-color: blue;
 }
 .dark-mode {
   background-color: black;
@@ -210,3 +211,16 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+ .span {
+            margin:5px;
+            width:150px;
+            text-align:center;
+            border:1px solid;
+            background:#ccc;
+            padding:10px;
+            display:inline-block;
+            font-size:14px;
+            cursor:pointer;
+        }
+       

@@ -229,6 +229,7 @@ nav {
 }
 #prueba123{
     width: 90px;
+   
 }
 
 .dropbtn {
@@ -241,9 +242,10 @@ nav {
 }
 
 .dropdown {
-  position: relative;
+  position: inherit;
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 70px;
+
 }
 
 .dropdown-content {
@@ -271,3 +273,4 @@ nav {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
