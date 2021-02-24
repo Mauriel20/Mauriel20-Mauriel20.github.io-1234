@@ -89,10 +89,14 @@
   margin-bottom:0;
 }
 
+.darkfondo{
+    background-color: black;
+}
+
 
 .dark-mode2{
   color:black;
-  background-color: blue;
+ 
 }
 .dark-mode {
   background-color: black;

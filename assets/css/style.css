@@ -4,6 +4,7 @@
   background-color:#fff;
   font-family:'Lora', serif;
   font-size:20px;
+ 
 
 }
 
@@ -52,9 +53,7 @@
   line-height:1.45;
 }
 
-@media (min-width:768px) {
- 
-}
+
 
 .article-clean .text h2 {
   margin-top:28px;
@@ -65,9 +64,7 @@
   color:#333;
 }
 
-@media (min-width:768px) {
 
-}
 
 .article-clean .text figure {
   text-align:center;
@@ -206,8 +203,8 @@ nav {
 }
 
 .content {
-    max-width: 1024px;
-    min-height: 380px;
+   
+ 
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -217,16 +214,12 @@ nav {
 }
 
 .content h1 {
-    font-size: 64px;
+  
     margin-bottom: 0;
     color: #111111;
 }
 
-@media (max-width: 960px){
-    .content h1 {
-        font-size: 48px;
-    }
-}
+
 #prueba123{
     width: 90px;
    
@@ -274,3 +267,6 @@ nav {
   background-color: #3e8e41;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
