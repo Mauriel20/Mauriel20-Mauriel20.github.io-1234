@@ -104,6 +104,11 @@
   
 }
 
+.dark-mode-label{
+    color: black;
+    
+}
+
 .darkModeSwitch{
     background: #3494b1;
     display:flex;

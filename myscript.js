@@ -10,10 +10,12 @@
              let element3 = document.getElementById("rowmagico");
                 element3.classList.toggle("dark-mode");
 
-            let element4 = document.getElementsByClassName("Bodya");
-                element4.classList.toggle("dark-mode");
+            let element4 = document.getElementById("fontsize");
+                element4.classList.toggle("dark-mode-label");
 
-
+            let element5 = document.getElementById("label2");
+                element5.classList.toggle("dark-mode-label");
+           
             const switchButton = document.getElementById('switch');
             switchButton.classList.toggle('active');//toggle the HTML button with the id='switch' with the class 'active'
 
