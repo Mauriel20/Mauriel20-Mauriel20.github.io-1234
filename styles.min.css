@@ -227,4 +227,6 @@ input:checked + .slider:before {
             font-size:14px;
             cursor:pointer;
         }
-       
+.search-icon{
+    visibility: hidden;
+}

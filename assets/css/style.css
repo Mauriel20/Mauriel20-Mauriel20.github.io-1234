@@ -226,19 +226,24 @@ nav {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background: white;
   color: white;
-  padding: 16px;
+  padding: 7px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+
+.dropbtn:hover{
+   background: rgb(95,110,109);
+background: linear-gradient(184deg, rgba(95,110,109,1) 13%, rgba(190,187,182,1) 97%);
 }
 
 .dropdown {
   position: inherit;
   display: inline-block;
   margin-top: 70px;
-
+  margin-left: 8%;
 }
 
 .dropdown-content {
@@ -264,7 +269,7 @@ nav {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {
