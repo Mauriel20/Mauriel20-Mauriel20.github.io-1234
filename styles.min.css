@@ -35,6 +35,9 @@
     text-align:center;
     padding-bottom:20px;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
 }
 
 .footer-dark .item.text {
@@ -45,6 +48,9 @@
   .footer-dark .item.text {
     margin-bottom:0;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
 }
 
 .footer-dark .item.text p {
@@ -61,6 +67,9 @@
     text-align:center;
     margin-top:20px;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
 }
 
 .footer-dark .item.social > a {
