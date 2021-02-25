@@ -54,4 +54,7 @@ $(document).keydown(function(event) {
 });
 })
         
+var Navigation = new OpenLayers.Control.Navigation({
+    defaultDblClick: function(event) { return; }
+});
      
